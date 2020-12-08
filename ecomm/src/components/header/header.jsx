@@ -7,7 +7,7 @@ import CartIcon from "../cart-icon/cart-icon.jsx";
 import CartDropdown from "../cart-dropdown/cart-dropdown.jsx";
 import { selectCartHidden } from "../../redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../redux/user/user.selectors";
-import { ReactComponent as Logo } from "../../assets/spark.svg";
+import { ReactComponent as Logo } from "../../assets/crown.svg";
 import "./header.styles.scss";
 
 const Header = ({ currentUser, hidden }) => (
